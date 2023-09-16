@@ -11,6 +11,7 @@ packages = [{include = "api_email_service"}]
 python = "^3.10"
 aws-ses-service = "^0.0.12"
 flask = "^2.3.3"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
