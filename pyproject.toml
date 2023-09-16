@@ -9,7 +9,13 @@ packages = [{include = "api_email_service"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+aws-ses-service = "^0.0.12"
+flask = "^2.3.3"
 
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core"]
