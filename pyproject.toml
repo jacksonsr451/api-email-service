@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "api-email-service"
+version = "0.1.0"
+description = "This is a simple email service building with python"
+authors = ["jacksonsr45 <jackson.severino.rocha@escola.pr.gov.br>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "api_email_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
